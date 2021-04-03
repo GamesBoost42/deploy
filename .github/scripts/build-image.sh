@@ -7,7 +7,7 @@ if [ ! -r VERSION ]; then
 	exit 1
 fi
 
-imageName="ghcr.io/gamesboost/deploy"
+imageName="ghcr.io/gamesboost42/deploy"
 version=$(cat VERSION)
 versionShort=$(echo "$version" | cut -d"-" -f1)
 buildDate=$(date -u +'%Y-%m-%dT%H:%M:%SZ')
